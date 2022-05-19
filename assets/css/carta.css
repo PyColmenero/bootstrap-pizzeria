@@ -1,0 +1,41 @@
+
+/* :hover ZOOM de imagen */
+#carta img {
+  transition: transform 0.5s;
+}
+#carta img:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+/* :hover SUBIR iconos */
+.icono_move {
+  transition: transform .5s;
+}
+.icono_move:hover {
+  display: block;
+  transform: translateY(-30%) ;
+}
+
+
+
+
+
+/* circulo flotante */
+.circulo {
+  background-color: red;
+  transform: translate(35%, -45%);
+}
+.circulo label,
+.circulo p {
+  height: 12px;
+}
+
+
+
+
+.icono_move i{
+  font-size: 40px;
+}

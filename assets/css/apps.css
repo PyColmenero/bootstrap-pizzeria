@@ -1,0 +1,6 @@
+#apps img {
+  transition: transform 0.5s;
+}
+#apps img:hover {
+  transform: translateY(-10%);
+}

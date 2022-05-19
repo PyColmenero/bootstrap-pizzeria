@@ -1,0 +1,7 @@
+#info i:hover{
+    color: red;
+}
+#info i{
+    font-size: 100px;
+    transition: color .5s;
+}

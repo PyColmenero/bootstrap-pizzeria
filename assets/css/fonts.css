@@ -1,0 +1,14 @@
+@font-face {
+  font-family: GrandHotel;
+  src: url("../fonts/GrandHotel-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1,
+h2 {
+  font-family: GrandHotel, cursive;
+}
+
+p, label, h3{
+  font-family: 'Roboto', sans-serif;
+}

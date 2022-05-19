@@ -1,0 +1,157 @@
+#flotante_01 {
+  position: absolute;
+  right: 2rem;
+  top: 82%;
+  width: 130px;
+  transform: translate(50%, -50%);
+}
+#flotante_04 {
+  display: block;
+  position: absolute;
+  left: 66%;
+  top: 20%;
+  width: 80px;
+  animation-name: item4;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+}
+#flotante_03 {
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 78%;
+  width: 100px;
+  animation-name: item3;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+}
+#flotante_02 {
+  position: absolute;
+  display: none;
+  animation-name: item2;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes item2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes item4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes item3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    left: 0;
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+@media (min-width: 576px) {
+  #flotante_01 {
+    right: 0;
+    top: 20%;
+    width: 250px;
+    transform: translate(50%, -50%);
+  }
+  #flotante_04 {
+
+    left: 80%;
+    top: 20%;
+    width: 100px;
+  }
+  #flotante_03 {
+    
+    left: -1%;
+    top: 60%;
+    width: 150px;
+  }
+  #flotante_02{
+    display: block;
+    width: 150px;
+    left: 12%;
+    top: 18%;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  #flotante_01 {
+    right: 0;
+    top: 50%;
+    width: 500px;
+    transform: translate(50%, -50%);
+  }
+  #flotante_02 {
+
+    left: 12%;
+    top: 18%;
+    width: 220px;
+  }
+  #flotante_04 {
+
+    left: 70%;
+    top: 24%;
+    width: 100px;
+  }
+  #flotante_03 {
+    left: -1%;
+    top: 70%;
+    width: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+}
+
+@media (min-width: 1400px) {
+  #flotante_01 {
+    right: 0;
+    top: 50%;
+    width: 500px;
+    transform: translate(50%, -50%);
+  }
+  #flotante_02 {
+
+    left: 16%;
+    top: 20%;
+    width: 220px;
+  }
+  #flotante_04 {
+
+    left: 70%;
+    top: 24%;
+    width: 100px;
+  }
+  #flotante_03 {
+
+    left: -1%;
+    top: 70%;
+    width: 200px;
+  }
+}
